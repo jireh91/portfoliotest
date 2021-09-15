@@ -1,0 +1,246 @@
+@charset "utf-8";
+
+
+
+/*main*****************/
+main {
+    margin-top: 100px;
+    width: 100%;
+    height: 600px;
+    background: url(../images/store/main.jpg) no-repeat center/cover;
+    padding: 200px;
+    box-sizing: border-box;
+}
+main .main_wrap {
+    width: 1280px;
+    margin: 0 auto;
+}
+main .main_wrap .main_txt {
+    width: 600px;
+    position: relative;
+}
+.main_txt h2 {
+    font-size: 80px;
+    color: #efefef;
+    letter-spacing: -1px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    border-bottom: 1px solid #efefef;
+}
+.main_txt p {
+    text-align: right;
+    color: #c8ae8e;
+    font-size: 18px;
+    letter-spacing: -0.6px;
+    line-height: 1.8;
+    position: absolute;
+    right: 8px;
+    bottom: -70px;
+}
+
+
+/*section*****************/
+
+section {
+    background-color: #111;
+    color: #efefef;
+}
+section a {
+    color: #efefef;
+}
+
+section #container {
+    width: 1280px;
+    margin: 0 auto;
+    padding-top: 200px;
+}
+
+/*.t_menu*****************/
+.t_menu:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+section>#container>.t_menu>li.stM {
+    float: left;
+    cursor: pointer;
+    padding: 0 20px 30px;
+    color: #999;
+    font-size: 20px;
+    font-weight: 500;
+    border-bottom: 3px solid #999;
+    margin-bottom: 100px;
+    width: 173px;
+    text-align: center;
+    transition: all .5s;
+}
+section>#container>.t_menu>li.stM:nth-child(3) {
+    position: relative;
+    top: -18px;
+    line-height: 24px;
+    padding-bottom: 20px;
+}
+section>#container>.t_menu>li.stM:hover {
+    color: #efefef;
+    border-bottom: 3px solid #efefef;
+}
+section>#container>.t_menu>li.selM {
+    color: #efefef;
+    border-bottom: 3px solid #efefef;
+}
+
+
+/*#store1~7*****************/
+.intro {
+    width: 100%;
+    background-color: #1c1c1c;
+    padding: 50px 0;
+    margin-bottom: 100px;
+}
+.intro:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.intro h2 {
+    float: left;
+    padding: 50px;
+    width: 300px;
+    color: #efefef;
+    text-align: center;
+    font-weight: 600;
+    font-size: 40px;
+    border-right: 2px solid #aaa;
+}
+.intro p {
+    display: block;
+    float: left;
+    line-height: 1.5;
+    color: #efefef;
+    font-size: 18px;
+    padding: 15px 0 0 80px;
+    position: relative;
+    top: 50%;
+}
+#store1 .intro p {
+    padding-top: 30px;
+}
+#store3 .intro h2 {
+    line-height: 1.4;
+}
+#store3 .intro p {
+    padding-top: 30px;
+}
+#store6 .intro p {
+    padding-top: 30px;
+}
+
+
+.info {
+    margin-bottom: 100px;
+}
+.info_header:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.info .info_header h3 {
+    width: 1100px;
+    float: left;
+    padding: 0 0 20px 40px;
+    box-sizing: border-box;
+    font-size: 22px;
+    font-weight: 500;
+    color: #efefef;
+    border-bottom: 2px solid #aaa;
+}
+.info .info_header a {
+    float: right;
+    display: block;
+    height: 40px;
+    text-align: center;
+    line-height: 37px;
+    width: 150px;
+    margin-left: 26px;
+    color: #efefef;
+    font-size: 16px;
+    border: 2px solid #aaa;
+}
+.info .info_header a:hover {
+    border: 2px solid #efefef;
+    background-color: #efefef;
+    color: #1c1c1c;
+}
+.info>ul {
+    padding: 20px 0 0 40px;
+}
+.info>ul:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.info>ul>li {
+    width: 300px;
+    float: left;
+    margin-right: 50px;
+}
+.info>ul>li>h4 {
+    margin-bottom: 20px;
+    color: #999;
+    font-size: 18px;
+    font-weight: 400;
+}
+.info>ul li p {
+    color: #efefef;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+.call ul li:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.call ul li h4 {
+    width: 150px;
+    float: left;
+    color: #efefef;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+
+.slide {
+    width: 880px;
+    margin: 0 auto;
+    padding-bottom: 200px;
+    overflow: hidden;
+}
+.slide .slide_wrap {
+    width: 200%;
+}
+.slide_wrap:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.slide .slide_wrap img {
+    display: block;
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

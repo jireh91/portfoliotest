@@ -1,0 +1,677 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;400;700;900&display=swap');
+
+/*main*****************/
+main {
+    width: 100%;
+    height: 700px;
+    margin-top: 100px;
+    position: relative;
+    overflow: hidden;
+}
+
+#main_wrap {
+    width: 300%;
+    /*height: 700px;*/
+    height: 100%;
+}
+
+.slide {
+    width: 33.333%;
+    height: 100%;
+    float: left;
+    /*position: relative;*/
+}
+.main1 {
+    /*width: 33.33333%;
+    height: 700px;*/
+    background: url(../images/main/main_Yuzoruby.jpg) no-repeat center/cover;
+    /*position: relative;*/
+}
+.main2 {
+    /*width: 33.3333%;
+    height: 700px;*/
+    background: url(../images/main/main2.png) no-repeat center/cover;
+/*    position: relative;*/
+}
+.main3 {
+    /*width: 33.3333%;
+    height: 700px;*/
+    background: url(../images/main/main3.png) no-repeat center/cover;
+    /*position: relative;*/
+}
+
+
+/*.main_info : 슬라이드 내의 컨텐츠 너비 설정*/
+.slide .main_info {
+    width: 1280px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    /*position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);*/
+    text-align: right;
+    color: #212977;
+    /*outline: 2px solid red;*/
+}
+
+/*.slide .main_info {
+    width: 1280px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}*/
+
+.slide .main_info .main_txt {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+
+/*.slide .main_info .main_txt {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    text-align: right;
+    color: #212977;
+}*/
+
+
+.mt1 h3 {
+    /*font-size: 18px;*/
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.mt1 h4 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+.mt1 a {
+    display: block;
+    width: 180px;
+    height: 50px;
+    text-align: center;
+    background-color: #212977;
+    float: right;
+}
+.mt1 a:hover {
+    background-color: #efefef;
+}
+.mt1 a span {
+    line-height: 44px;
+    color: #efefef;
+    font-weight: 400;
+    font-size: 18px;
+}
+.mt1 a:hover span{
+    color: #212977;
+}
+
+
+
+.mt2 h3 {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.4;
+    letter-spacing: -0.6px;
+    margin-bottom: 25px;
+    color: #333;
+}
+
+.mt2 a {
+    display: block;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: #333;
+    float: right;
+}
+.mt2 a:hover {
+    background-color: #eee;
+    
+}
+.mt2 a span {
+    line-height: 44px;
+    color: #efefef;
+    font-weight: 400;
+    font-size: 18px;
+}
+.mt2 a:hover span {
+    color: #333;
+}
+
+
+
+
+.mt3 h3 {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.4;
+    margin-bottom: 10px;
+    color: #eee;
+}
+
+.mt3 h4 {
+    color: #fff;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.mt3 a {
+    display: block;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: #fff;
+    float: right;
+}
+.mt3 a:hover {
+    background-color: #111;
+}
+.mt3 a span {
+    line-height: 44px;
+    color: #333;
+    font-weight: 400;
+    font-size: 18px;
+}
+.mt3 a:hover span {
+    color: #fff;
+}
+
+#arrowL {
+    position: absolute;
+    bottom: 5%;
+    left: 48%;
+    transform: translateX(-48%);
+    width: 30px;
+    height: 30px;
+    background: url(../images/main/arrow.png) no-repeat -10px -0px;
+    background-size: auto;
+    cursor: pointer;
+}
+#arrowL:hover {
+    background: url(../images/main/arrow.png) no-repeat -10px -32.5px;
+}
+
+#arrowR {
+    position: absolute;
+    bottom: 5%;
+    left: 52%;
+    transform: translateX(-52%);
+    width: 30px;
+    height: 30px;
+    background: url(../images/main/arrow.png) no-repeat -40px -0px;
+    background-size: auto;
+    cursor: pointer;
+}
+#arrowR:hover {
+    background: url(../images/main/arrow.png) no-repeat -40px -32.5px;
+}
+
+
+/*section - #bestnew*****************/
+section {
+    width: 100%;
+    background-color: #111;
+}
+
+
+#bestnew {
+    width: 1280px;
+    margin: 0 auto;
+    padding-top: 150px;
+}
+#bestnew .bn_title {
+    width: 100%;
+    margin-bottom: 100px;
+    position: relative;
+}
+#bestnew .bn_title h2 {
+    font-size: 80px;
+    font-weight: 700;
+    color: #efefef;
+}
+#bestnew .bn_title a {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: block;
+    padding-bottom: 7px;
+    border-bottom: 1px solid #efefef;
+    transition: all .5s;
+}
+#bestnew .bn_title a:hover {
+    border-bottom: 1px solid #999;
+}
+#bestnew .bn_title a span {
+    color: #efefef;
+    transition: all .5s;
+}
+#bestnew .bn_title a:hover span {
+    color: #999
+}
+.bn_con {
+    position: relative;
+    margin-bottom: 150px;
+}
+.bn_con:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.bn_con .bn_arrow {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.bn_arrow #bn_arrowL {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    background: url(../images/main/arrow.png) no-repeat -15px -33px;
+    background-size: auto;
+    cursor: pointer;
+}
+.bn_arrow #bn_arrowL:hover {
+    background: url(../images/main/arrow.png) no-repeat -72px -33px;
+}
+.bn_arrow #bn_arrowR {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    background: url(../images/main/arrow.png) no-repeat -31px -33px;
+    background-size: auto;
+    cursor: pointer;
+}
+.bn_arrow #bn_arrowR:hover {
+    background: url(../images/main/arrow.png) no-repeat -88px -33px;
+}
+
+
+#bestnew .bn_con .slider {
+    width: 1150px;
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+}
+
+#bestnew .bn_con ul.container {
+    width: 2336px;
+}
+#bestnew .bn_con ul .bn_box {
+    width: 260px;
+    float: left;
+    position: relative;
+    border: 2px solid rgba(0,0,0,0);
+    border-radius: 0 0 10px 10px;
+    box-sizing: border-box;
+}
+#bestnew .bn_con ul .bn_box~.bn_box {
+    margin-left: 36px;
+}
+#bestnew .bn_con ul .bn_box:hover {
+    display: block;
+    border: 2px solid #fff;
+    border-radius: 12px;
+    background-color: rgba(0,0,0,0.5);
+}
+.bn_box .sticker {
+    position: absolute;
+    top: 3%;
+    right: 4%;
+}
+#bestnew .bn_con ul .bn_box:last-child {
+    margin-right: 0;
+}
+.bn_box .boxImg>img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px 8px 0 0;
+}
+.bn_box h3{
+    display: block;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    color: #efefef;
+    font-weight: bold;
+    font-size: 25px;
+    background-color: #2a2a2a;
+    border-radius: 0 0 8px 8px;
+}
+.bn_box2 h3{
+    line-height: 20px;
+    padding: 25px;
+    height: 50px;
+}
+.bn_box2 span {
+    font-size: 15px;
+    font-weight: 400;
+}
+.bn_box .cover {
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+/*section - #banner*****************/
+#banner {
+    width: 100%;
+    /*background: url(../images/main/banner1.jpg) no-repeat right/170%;*/
+    background: url(../images/main/banner2.png) no-repeat right bottom/100%;
+    margin-bottom: 150px;
+    background-attachment: fixed;
+}
+#banner .baner_wrap {
+    width: 1280px;
+    margin: 0 auto;
+    padding: 100px 0;
+    color: #efefef;
+}
+#banner .baner_wrap .banner_txt {
+    width: 800px;
+}
+.banner_txt:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.banner_txt h3 {
+    padding: 30px;
+    font-size: 30px;
+    font-weight: 100;
+    line-height: 50px;
+    border-bottom: 1px solid #efefef;
+}
+.banner_txt h3 span {
+    font-weight: 600;
+}
+.banner_txt a {
+    float: right;
+    margin: 30px 30px 30px 0;
+    display: block;
+    width: 200px;
+    height: 50px;
+    border: 2px solid #efefef;
+    text-align: center;
+    line-height: 50px;
+}
+.banner_txt a:hover {
+    background-color: #efefef;
+    font-weight: bold;
+}
+.banner_txt a:hover span {
+    color: #333;
+}
+.banner_txt a span {
+    color: #efefef;
+    font-size: 20px;
+}
+
+
+
+/*section - #roastery*****************/
+#roastery {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    /*outline: 3px solid lime;*/
+}
+#roastery .roas_title {
+    position: relative;
+    margin-bottom: 150px;
+}
+.roas_title h2 {
+    font-size: 80px;
+    color: #efefef;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.roas_title p {
+    text-align: center;
+    color: #999;
+    font-size: 19px;
+    text-indent: 10px;
+}
+.roas_title a {
+    display: block;
+    position: absolute;
+    right: 15%;
+    bottom: 0;
+    padding-bottom: 7px;
+    border-bottom: 1px solid #efefef;
+    transition: all .5s;
+}
+.roas_title a span {
+    color: #efefef;
+    transition: all .5s;
+}
+.roas_title a:hover {
+    border-bottom: 1px solid #999;
+}
+.roas_title a:hover span {
+    color: #999
+}
+
+#roastery>ul {
+    width: 100%;
+    overflow: hidden;
+    /*실제 보여지는 부분보다 자식요소가 너비 밖에 있으므로 overflow 설정 필요*/
+    margin-bottom: 150px;
+}
+
+.roas_con, .roas_conR {
+    width: 100%;
+    margin-bottom: 100px;
+    position: relative;
+}
+.roas_con:after, .roas_conR:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.roas_con img {
+    width: 50%;
+    height: 100%;
+    float: left;
+    margin-right: 70px;
+    display: block;
+    position: relative;
+    left: -50%;
+    /*left: -20%;
+    opacity: 0;*/
+}
+.roas_con .roas_txt {
+    width: 40%;
+    height: 100%;
+    position: absolute;
+    top: 70%;
+    /*원래위치 top:20%*/
+    /*transform: translateY(-50%);*/
+    left: 55%;
+    opacity: 0.5;
+}
+.roas_txt h3 {
+    color: #efefef;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+.roas_txt p {
+    color: #999;
+    font-size: 18px;
+    line-height: 30px;
+}
+.roas_conR img {
+    width: 50%;
+    display: block;
+    float: right;
+    margin-right: 0;
+    margin-left: 70px;
+    position: relative;
+    /*left: 20%;*/
+    right: -50%;
+}
+.roas_conR .roas_txt {
+    text-align: right;
+    width: 40%;
+    height: 100%;
+    position: absolute;
+    /*left: 0;*/
+    right: 55%;
+    top: 70%;
+    /*원래위치 top:20%*/
+    opacity: 0.5;
+}
+
+/*.roas_con:last-child {
+    margin-bottom: 150px;
+}*/
+
+
+
+
+/*section - #evt_magz*****************/
+#evt_magz {
+    padding-top: 150px;
+    background-color: #efefef;
+}
+.evt_magz_wrap {
+    width: 1280px;
+    margin: 0 auto;
+}
+.evt_magz_wrap:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.evt_magz_wrap .em_title {
+    position: relative;
+    margin-bottom: 100px;
+}
+.evt_magz_wrap .em_title h2 {
+    color: #1c1c1c;
+    text-align: right;
+    font-size: 80px;
+    font-weight: 900;
+}
+.evt_magz_wrap .em_title .goPage {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.em_title .goPage a {
+    float: left;
+    margin-right: 15px;
+    display: block;
+    padding-bottom: 7px;
+    border-bottom: 1.5px solid #999;
+    transition: all .5s;
+}
+.em_title .goPage a span {
+    color: #999;
+    font-weight: bold;
+    transition: all .5s;
+}
+.em_title .goPage a:hover {
+    border-bottom: 1.5px solid #333;
+}
+.em_title .goPage a:hover span {
+    color: #333;
+    font-weight: 700;
+}
+
+.evt_magz_wrap ul .em_box {
+    float: left;
+    width: 296px;
+    position: relative;
+    margin-bottom: 300px;
+    margin-right: 25px;
+    border-radius: 20px;
+    transition: all 0.5s;
+    overflow: hidden;
+}
+.evt_magz_wrap ul .em_box:hover img {
+    transform: scale(1.1);
+}
+.evt_magz_wrap ul .em_box:hover div>h4>img {
+    transform: scale(1);
+}
+
+.evt_magz_wrap ul .box2 {
+    position: relative;
+    top: 100px;
+}
+.evt_magz_wrap ul .em_box:last-child {
+    margin-right: 0;
+}
+.evt_magz_wrap ul .em_box img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    transition: all 0.5s;
+}
+.evt_magz_wrap ul .em_box .em_txt {
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    z-index: 99;
+}
+.em_box .em_txt h4 {
+    color: #efefef;
+}
+.em_box .em_txt h4 img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.em_box .em_txt p {
+    color: #efefef;
+    margin-top: 10px;
+}
+.evt_magz_wrap ul .em_box:hover h4 {
+    color: #333;
+}
+.evt_magz_wrap ul .em_box:hover p {
+    color: #333;
+}
+.em_box .cover {
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255,0.4);
+    border-radius: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9;
+}
+
+
+
+
+
+

@@ -1,0 +1,140 @@
+@charset "utf-8";
+
+
+
+/*main*****************/
+main {
+    margin-top: 100px;
+    width: 100%;
+    height: 600px;
+    background: url(../images/magazine/main.jpg) no-repeat center/cover;
+    padding: 200px;
+    box-sizing: border-box;
+}
+main .main_wrap {
+    width: 1280px;
+    margin: 0 auto;
+}
+main .main_wrap .main_txt {
+    width: 600px;
+    position: relative;
+}
+.main_txt h2 {
+    font-size: 80px;
+    color: #efefef;
+    letter-spacing: -1px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    border-bottom: 1px solid #efefef;
+}
+.main_txt p {
+    text-align: right;
+    color: #c8ae8e;
+    font-size: 18px;
+    letter-spacing: -0.6px;
+    line-height: 1.8;
+    position: absolute;
+    right: 8px;
+    bottom: -70px;
+}
+
+
+/*magazine*****************/
+
+section {
+    background-color: #efefef;
+}
+
+#magazine {
+    width: 1280px;
+    margin: 0 auto;
+    padding-top: 150px;
+    padding-bottom: 200px;
+}
+#magazine:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+#magazine .contents_wrap {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+ul.contents {
+    width: 400px;
+    padding-top: 40px;
+    float: left;
+}
+#magazine ul~ul {
+    margin-left: 40px;
+}
+.contents li {
+    margin-bottom: 40px;
+    position: relative;
+    top: 0;
+    transition: all .3s;
+    display: none;
+}
+
+
+#magazine ul.contents li:hover {
+    top: -20px;
+    box-shadow: 0px 5px 10px #555;
+}
+#magazine ul.contents li:hover .txtBox {
+    background-color: #111;
+}
+#magazine ul.contents li:hover .s_title {
+    color: #ccc;
+}
+#magazine ul.contents li:hover .m_title {
+    color: #fff;
+}
+.contents li a .imgBox {
+    width: 400px;
+}
+.contents li a .imgBox img {
+    width: 100%;
+}
+
+
+.contents li a .txtBox {
+    padding: 30px;
+    background-color: #fff;
+}
+.txtBox h3.s_title {
+    color: #555;
+    margin-bottom: 15px;
+}
+.txtBox h2.m_title {
+    color: #333;
+    line-height: 1.5;
+    font-size: 22px;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+.txtBox p.date {
+    color: #999;
+    text-align: right;
+}
+
+
+
+
+#magazine .btn {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 58px;
+    width: 250px;
+    height: 60px;
+    color: #333;
+    border: 2px solid #333;
+    transition: all .3s;
+}
+#magazine .btn:hover {
+    background-color: #333;
+    color: #efefef;
+}

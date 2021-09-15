@@ -1,0 +1,126 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;400;700;900&display=swap');
+
+/*main*****************/
+main {
+    margin-top: 100px;
+    width: 100%    ;
+    height: 700px;
+    background: url(../images/rostery1-1/main.jpg) no-repeat center/cover;
+}
+
+/*section - .roas_menu*****************/
+section {
+    width: 100%;
+    background-color: #111;
+}
+#roastery:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+section #roastery {
+    width: 1280px;
+    margin: 0 auto;
+    padding-top: 200px;
+    background-color: #111;
+    position: relative;
+}
+#roastery .roas_menu {
+    width: 380px;
+    float: left;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#roastery .roas_menu>li {
+    margin-bottom: 40px;
+    transition: all .2s;
+}
+#roastery .roas_menu>li:hover {
+    padding-left: 20px;
+}
+#roastery .roas_menu>li>a {
+    color: #999;
+    font-size: 26px;
+    font-weight: 600;
+}
+#roastery .roas_menu>li:hover>a {
+    color: #efefef;
+}
+#roastery .roas_menu>li>ul>li {
+    margin-top: 30px;
+    transition: all .2s;
+}
+#roastery .roas_menu>li>ul>li:hover {
+    padding-left: 20px;
+}
+#roastery .roas_menu>li>ul>li>a {
+    color: #999;
+    font-size: 18px;
+}
+#roastery .roas_menu>li>ul>li:hover a {
+    color: #efefef;
+}
+
+
+/*section - .roas_content*****************/
+#roastery .roas_content {
+    width: 900px;
+    float: right;
+    margin-top: 200px;
+}
+#roastery .roas_content li {
+    width: 700px;
+    float: right;
+    margin-bottom: 150px;
+}
+.roas_content .sub_title1 {
+    position: relative;
+}
+.roas_content .sub_title1 h2 {
+    font-size: 130px;
+    font-weight: 900;
+    color: #212977;
+    line-height: 80px;
+    position: absolute;
+    top: -200px;
+    left: -125px;
+    opacity: 0;
+}
+.roas_content .sub_title1 h2 span {
+    font-size: 52px;
+}
+.roas_content .sub_title2 {
+    position: relative;
+    margin-top: 100px;
+}
+.roas_content .sub_title2 h2 {
+    font-size: 130px;
+    font-weight: 900;
+    color: #212977;
+    position: absolute;
+    top: -145px;
+    left: -125px;
+    opacity: 0;
+}
+.roas_content li img {
+    margin: 20px 0 50px;
+}
+.roas_content li h3 {
+    color: #efefef;
+    font-size: 25px;
+    font-weight: 600;
+}
+.roas_content li h3 span {
+    color: #999;
+    font-size: 16px;
+    margin-left: 10px;
+}
+.roas_content li p {
+    color: #efefef;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.6;
+}
